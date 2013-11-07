@@ -1,7 +1,10 @@
 <?php
-include_once "TestUtility.php";
+include_once "TestManager.php";
 
 static final class Assert {
+	static function SetTargetMethodName($targetMethodName) {
+	
+	}
 	static function AreEqual($actual, $expected) {
 	
 	}
